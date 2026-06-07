@@ -1,20 +1,17 @@
-# Звіт: аналіз поточного стану
-## Імуєcть проекту
-- Домен бренду: biztoolinsight.com.ua
-- Деплой: локально в /home/deploy/projects/passive-income-site, є netlify.toml
-- Контент: 10 сторінок
+# Status report
 
-## Переваги
-- Готова адаптивна верстка та кілька сторінок
-- Бренд визначений, структура контенту присутня
-- Розглянуто партнерські програми
+## Already complete
+- [x] Basic site structure
+- [x] Three starter articles
+- [x] SEO
+- [x] Brand / domain
+- [x] Affiliate candidate list
 
-## Ризики
-- Відсутня розширена аналітика
-- Партнерські програми ще не інтегровані
-- Домен та деплой ще не налаштовано
+## Changed this run
+- Created `affiliate-programs.md` with curated partner program list
+- Created `account-setup-guide.md` with registration instructions and templates
+- Added affiliate links into `posts/crm-for-small-business.html`
+- Updated `tasks.md` to mark partner list as done
 
-## Корекції
-- Уточнити фінансовий моніторинг і відстеження результатів
-- Запланувати ранній деплой
-- Виключити ризики контенту, що може викликати претензії
+## Next step
+Create affiliate accounts (requires manual action) or continue adding affiliate links into the remaining posts.
