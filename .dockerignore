@@ -1,0 +1,46 @@
+# VCS
+.git
+.gitignore
+.github
+.gitattributes
+
+# IDE / редактори
+.vscode
+.idea
+*.swp
+*.swo
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Середовище та секрети
+.env
+.env.*
+!.env.example
+
+# Локальна документація / тести (якщо не потрібні у збірці)
+docs
+tests
+*.md
+LICENSE
+
+# Кеші / артефакти збірки за межами середовища
+node_modules
+__pycache__
+venv
+.venv
+.envrc
+dist
+build
+*.egg-info
+
+# Логи
+logs
+*.log
+
+# Додатковий склад для Docker
+docker-compose*.yml
+Dockerfile*
+docker
+.docker

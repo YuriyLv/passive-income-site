@@ -1,0 +1,3 @@
+# GSC environment loader
+GSC_SITE_URL=${GSC_SITE_URL:-__CHANGE_ME__}
+GSC_KEY_PATH=${GSC_KEY_PATH:-__CHANGE_ME__}

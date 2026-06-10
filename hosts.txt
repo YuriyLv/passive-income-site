@@ -1,19 +1,15 @@
-# Deploy checklist
+# Оновлено: поточний робочий стан проєкту BizTool Insight
+# Домен сайту: https://biztoolinsight.com.ua/
+# Деплой: GitHub Pages — https://vasylkivskyi.github.io/biz-tool-insight/
+# Адаптація: canonical, sitemap, robots вже переведено на https://biztoolinsight.com.ua/
 
-## Before publishing
-1. Замінити `https://example.com/` у канонічних посиланнях і sitemap на реальний домен.
-2. Переконатися, що репозиторій імʼя та протокол збігаються з обраною платформою.
-3. Додати Google Search Console / Bing Webmaster. Verify властивостей.
-4. Підключити сторінки в партнерських програмах; додати відповідні посилання в статтях.
-5. Оновити `hosts.txt` тут, якщо використовуєш статичний хост.
-6. Запустити локальну перевірку: `python3 -m http.server 8080` -> відкрити головну і пости.
+## Актуальні кроки
+1. Налаштувати Google Analytics у `index.html`: створити ресурс GA і замінити заглушку на реальний ідентифікатор.
+2. Заповнити Bing Webmaster API-ключ у `.env` (`BING_WEBMASTER_API_KEY`).
+3. Вирішити блок `DISALLOWED` у Google Search Console: перевірити Google Search Console API та службового акаунта в Google Cloud Console.
+4. Додати партнерські посилання в решту статей.
+5. Налаштувати деплой на Netlify/домен `biztoolinsight.com.ua`.
 
-## Netlify quick start
-1. Створити сайт на Netlify.
-2. Підключити репозиторій або вручну надати папку `/home/deploy/projects/passive-income-site`.
-3. Вказати корінь сайту: `public` або корінь проєкту для статичного сайту.
-4. У ручному режимі завантажити зібрану папку.
-
-## Next article ideas
-- "Як обрати CRM-сервіс для малого бізнесу в 2026"
-- "Онлайн-каса для самозайнятих: що змінилося в 2026"
+## Локальна перевірка
+- Запуск: `python3 -m http.server 8080` з кореня проєкту.
+- Перевірки: головна сторінка, `/posts/*`, XML sitemap, robots.txt.
