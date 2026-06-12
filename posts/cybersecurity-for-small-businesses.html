@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Кібербезпека для малого бізнесу: практичні поради 2026</title>
+  <link rel="canonical" href="https://yuriylv.github.io/passive-income-site/posts/cybersecurity-for-small-businesses.html">
+  <meta property="og:title" content="Кібербезпека для малого бізнесу">
+  <meta property="og:description" content="Як захистити дані, увімкнути двофакторну автентифікацію та навчити персонал без большого бюджету.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1563986768609-322da13575f2?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1563986768609-322da13575f2?auto=format&fit=crop&w=1400&q=80">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="https://yuriylv.github.io/passive-income-site/">BizTool Insight</a>
+      <div class="nav-links">
+        <a href="https://yuriylv.github.io/passive-income-site/#статті">Статті</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="caption overline">Стаття</span>
+      <h1 class="section">Кібербезпека для малого бізнесу: практичні поради 2026</h1>
+      <div class="mt-24">
+        <span class="chip active">Security</span>
+        <span class="small text-neutral ml-12">червень 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <div class="card" style="border-radius:var(--radius-lg);">
+        <div class="card-body">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f2?auto=format&fit=crop&w=1400&q=80" alt="Кібербезпека" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
+          <p>Малий бізнес часто є ціллю через слабкі паролі та відсутність резервних копій. Ця стаття — мінімальний, але робочий протокол захисту без дорогого IT-відділу.</p>
+
+          <h2>Основний протокол</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Рівень</th><th>Заходи</th><th>Вартість/складність</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Базовий</td><td>Паролі + менеджер паролів</td><td>Від $3 на користувача</td></tr>
+                <tr><td>Стандарт</td><td>2FA + VPN + брандмауер</td><td>$5-15 на користувача</td></tr>
+                <tr><td>Просунутий</td><td>Шифрування + аудит + тренінг</td><td>$20+</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Чеклист</h2>
+          <ul>
+            <li>Увімкніть 2FA для всіх сервісів.</li>
+            <li>Зробіть резервні копії щодня і перевіряйте їх.</li>
+            <li>Навчіть персонал розпізнавати фішинг.</li>
+            <li>Оновлюйте ПО автоматично.</li>
+          </ul>
+
+          <h2>Вартість</h2>
+          <ul>
+            <li>Проксі/VPN: від $5/міс.</li>
+            <li>Менеджер паролів: від $3/міс.</li>
+            <li>Антифішинг: від $10/міс.</li>
+          </ul>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <canvas id="cyberChart" aria-label="Порівняння рівнів захисту" role="img"></canvas>
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/document-security.html">Поради з безпеки електронних документів</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/saas-reliability.html">Як перевірити надійність SaaS-сервісу</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/remote-work-tools.html">Віддалена робота: інструменти для команди</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="https://yuriylv.github.io/passive-income-site/">← На BizTool Insight</a>
+      <p class="mt-16">BizTool Insight © 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    new Chart(document.getElementById('cyberChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Базовий', 'Стандарт', 'Просунутий'],
+        datasets: [
+          { label: 'Захист (%)', data: [40, 70, 95], backgroundColor: 'rgba(99,102,241,0.35)', borderColor: 'rgba(99,102,241,1)', borderWidth: 1 },
+          { label: 'Складність', data: [20, 45, 80], backgroundColor: 'rgba(239,68,68,0.35)', borderColor: 'rgba(239,68,68,1)', borderWidth: 1 }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+          y: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.06)' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
