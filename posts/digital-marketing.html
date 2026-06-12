@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Цифровий маркетинг для малого бізнесу: основні канали</title>
+  <link rel="canonical" href="https://yuriylv.github.io/passive-income-site/posts/digital-marketing.html">
+  <meta property="og:title" content="Цифровий маркетинг">
+  <meta property="og:description" content="Що працює для малого бізнесу: соцмережі, контент, реклама.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1400&q=80">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="https://yuriylv.github.io/passive-income-site/">BizTool Insight</a>
+      <div class="nav-links"><a href="https://yuriylv.github.io/passive-income-site/#статті">Статті</a></div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="caption overline">Стаття</span>
+      <h1 class="section">Цифровий маркетинг для малого бізнесу: основні канали</h1>
+      <div class="mt-24">
+        <span class="chip active">Marketing</span>
+        <span class="small text-neutral ml-12">червень 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <div class="card" style="border-radius:var(--radius-lg);">
+        <div class="card-body">
+          <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1400&q=80" alt="Цифровий маркетинг" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
+          <p>Маркетинг для малого бізнесу має бути простим і вимірюваним. Один-два канали, зрозуміла метрика, невеликий бюджет.</p>
+
+          <h2>Канали</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Канал</th><th>Бюджет</th><th>Результат</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>SEO</td><td>від $200/міс</td><td>стабільний трафік</td></tr>
+                <tr><td>Соцмережі</td><td>від $100/міс</td><td>відчуття бренду</td></tr>
+                <tr><td>Реклама</td><td>від $300/міс</td><td>швидкі ліди</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Як обрати</h2>
+          <ul>
+            <li>Для салонів — Instagram + Google Maps.</li>
+            <li>Для кафе — Facebook + Geolocation.</li>
+            <li>Для B2B — LinkedIn + SEO.</li>
+          </ul>
+
+          <h2>Вартість</h2>
+          <ul>
+            <li>Маркетолог: від $500/міс.</li>
+            <li>Аутсорс: від $300/міс.</li>
+            <li>Інструменти: від $50/міс.</li>
+          </ul>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <canvas id="dmChart" aria-label="Ефективність каналів" role="img"></canvas>
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/email-marketing.html">Email-маркетинг</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/analytics-tools.html">Інструменти аналітики</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/seo-for-small-business.html">SEO для малого бізнесу</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="https://yuriylv.github.io/passive-income-site/">← На BizTool Insight</a>
+      <p class="mt-16">BizTool Insight © 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    new Chart(document.getElementById('dmChart'), {
+      type: 'radar',
+      data: {
+        labels: ['SEO', 'Соцмережі', 'Реклама', 'Партнерки', 'Контент'],
+        datasets: [
+          { label: 'Органіка', data: [9, 5, 3, 4, 8], borderColor: 'rgba(16,185,129,1)', backgroundColor: 'rgba(16,185,129,0.15)' },
+          { label: 'Платна', data: [4, 7, 9, 5, 4], borderColor: 'rgba(245,158,11,1)', backgroundColor: 'rgba(245,158,11,0.15)' }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          r: {
+            ticks: { color: '#cbd5e1', backdropColor: 'transparent' },
+            grid: { color: 'rgba(255,255,255,0.06)' },
+            pointLabels: { color: '#cbd5e1' }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

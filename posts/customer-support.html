@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Customer Support: як обрати систему для малого бізнесу</title>
+  <link rel="canonical" href="https://yuriylv.github.io/passive-income-site/posts/customer-support.html">
+  <meta property="og:title" content="Customer Support">
+  <meta property="og:description" content="Як обрати та оптимізувати підтримку клієнтів.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="https://yuriylv.github.io/passive-income-site/">BizTool Insight</a>
+      <div class="nav-links"><a href="https://yuriylv.github.io/passive-income-site/#статті">Статті</a></div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="caption overline">Стаття</span>
+      <h1 class="section">Customer Support: як обрати систему для малого бізнесу</h1>
+      <div class="mt-24">
+        <span class="chip active">Support</span>
+        <span class="small text-neutral ml-12">червень 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <div class="card" style="border-radius:var(--radius-lg);">
+        <div class="card-body">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80" alt="Підтримка клієнтів" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
+          <p>Якісна підтримка зменшує відмову і збільшує LTV. Спроба самостійно обробити всі запити призводить до черг і втрати клієнтів.</p>
+
+          <h2>Що важливо</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Потрібно</th><th>Рішення</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Швидкість відповіді</td><td>Auto-reply + SLA</td></tr>
+                <tr><td>База знань</td><td>Стандартизовані відповіді</td></tr>
+                <tr><td>Канали</td><td>Email, чат, месенджери</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Вартість</h2>
+          <ul>
+            <li>Старт: від $10/міс (Intercom, Zendesk).</li>
+            <li>Для 3 агентів: від $30/міс.</li>
+            <li>Корпоративний: від $80/міс.</li>
+          </ul>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <canvas id="csChart" aria-label="LTV з підтримкою" role="img"></canvas>
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/sales-automation.html">Автоматизація продажів</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/crm-for-small-business.html">CRM для малого бізнесу</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/hr-systems.html">HR-системи</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="https://yuriylv.github.io/passive-income-site/">← На BizTool Insight</a>
+      <p class="mt-16">BizTool Insight © 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    new Chart(document.getElementById('csChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Без підтримки', 'Базової підтримки', 'Розширеної підтримки'],
+        datasets: [
+          { label: 'LTV (%)', data: [40, 65, 85], backgroundColor: 'rgba(99,102,241,0.35)', borderColor: 'rgba(99,102,241,1)', borderWidth: 1 }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+          y: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.06)' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
