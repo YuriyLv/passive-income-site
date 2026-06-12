@@ -8,14 +8,21 @@
   <meta property="og:title" content="Поради з безпеки електронних документів">
   <meta property="og:description" content="Документообіг в ефірі: як не допустити витоку та залишити перевірний слід.">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1400&q=80">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1400&q=80">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1400&q=80">
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+  <style>
+    .comparison { border: 1px solid rgba(255,255,255,0.08); }
+    .comparison th, .comparison td { border: 1px solid rgba(255,255,255,0.08); }
+    .comparison th { background: rgba(255,255,255,0.03); }
+    .comparison tr:hover td { background: rgba(255,255,255,0.02); }
+  </style>
 </head>
 <body>
   <nav class="site-nav">
@@ -42,41 +49,47 @@
     <article class="container">
       <div class="card" style="border-radius:var(--radius-lg);">
         <div class="card-body">
-          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1400&q=80" alt="Поради з безпеки електронних документів" style="width:100%;border-radius:8px;margin-bottom:20px;">
-          <p>Безпека електронних документів залежить від трьох речей: автентифікації, шифрування та можливості відстежити дії з файлом.</p>
-    <h2>Мінімальний протокол</h2>
-    <ul>
-      <li>Керуйте правами доступу за ролями</li>
-      <li>Використовуйте жорсткі терміни доступу</li>
-      <li>Зберігайте логи редагувань і експортів</li>
-      <li>Підтверджуйте зміни підписом або SMS</li>
-    </ul>
-    <h2>Порівняння рівнів захисту</h2>
-    <div class="table-wrap">
-      <table class="comparison">
-        <thead><tr><th>Рівень</th><th>Заходи</th><th>Ризики</th></tr></thead>
-        <tbody>
-          <tr><td>Базовий</td><td>Пароль + посилання</td><td>Відновлення пароля, передача посилань</td></tr>
-          <tr><td>Стандарт</td><td>2FA + права доступу</td><td>Обмежений аудит дій</td></tr>
-          <tr><td>Просунутий</td><td>Шифрування + аудит</td><td>Потребує адміністрування</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <h2>Чеклист</h2>
-    <p>Перевірте, що у вас є: загальна політика паролів, періодичне сканування доступів, архівний знімок документів і процес реагування на інциденти.</p>
-    <h2>Розширена інформація</h2>
-    <p>Кожен рівень захисту додає витрати на адміністрування, тому оберіть мінімально достатній для ваших ризиків.</p>
-    <p>Для малого бізнесу часто достатньо стандартного рівня з 2FA та логуванням — воно балансує вартість і захист.</p>
-    <h2>Візуалізація</h2>
-    <div class="chart-wrap">
-      <img src="/assets/img/document-security-chart.png" alt="Diagram">
-    </div>
-    <h2>Читати також</h2>
-    <ul>
-      <li><a href="/posts/document-digitalization.html" rel="related">Оцифрування документів для малого бізнесу</a></li>
-      <li><a href="/posts/remote-work-security.html" rel="related">Безпека віддаленої роботи</a></li>
-      <li><a href="/posts/cyber-security-small-business.html" rel="related">Кібербезпека для малого бізнесу</a></li>
-    </ul>
+          <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1400&q=80" alt="Поради з безпеки електронних документів" style="width:100%;border-radius:8px;margin-bottom:20px;">
+          <p>Електронні документи зручні, але без захисту швидко стають ризиком. У статті — базові інструменти та правила, які зменшують ймовірність витоку і спрощують перевірки.</p>
+
+          <h2>Типові загрози</h2>
+          <ul>
+            <li>Відкритий обмін файлами через чати та особисту пошту.</li>
+            <li>Відсутність журналу подій і версіонування.</li>
+            <li>Використання спільних паролів і відсутність 2FA.</li>
+            <li>Незакріплені права доступу після зміни посад.</li>
+          </ul>
+
+          <h2>Захист на рівні процесу</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead><tr><th>Крок</th><th>Рішення</th><th>Перевага</th></tr></thead>
+              <tbody>
+                <tr><td>Шифрування</td><td>Кінцеве шифрування + TLS</td><td>Дата недоступна стороні</td></tr>
+                <tr><td>Підпис</td><td>КЕП або сервісний підпис</td><td>Відповідальність та жорстка верифікація</td></tr>
+                <tr><td>Журнал подій</td><td>Хто / коли / що робив з файлом</td><td>Зрозумілість при інциденті</td></tr>
+                <tr><td>Резервні копії</td><td>Зокрема offline-копія</td><td>Відновлення після збою</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Інструментарій</h2>
+          <p>На старті достатньо поєднання DLP-рішення, централізованого сховища та сервісу електронного підпису. Потім можна додавати моніторинг аномалій і автовідновлення прав доступу.</p>
+
+          <h2>Вартість і високорівневий підхід</h2>
+          <ul>
+            <li>Базовий протокол шифрування: безліч вільних рішень.</li>
+            <li>Комерційний DLP: від $150/міс на команду.</li>
+            <li>Підпис: щомісячна плата за пакунок підписів.</li>
+            <li>Коригувальна інженерія: аудит прав та правил.</li>
+          </ul>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/top-5-edo.html">Топ-5 EDO-сервісів для малого бізнесу в Україні</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/accounting-services.html">Порівняння онлайн-бухгалтерських сервісів</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/crm-for-small-business.html">Як обрати CRM-сервіс для малого бізнесу</a></li>
+          </ul>
         </div>
       </div>
     </article>

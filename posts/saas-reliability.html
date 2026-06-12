@@ -8,15 +8,21 @@
   <meta property="og:title" content="Як перевірити надійність SaaS-сервісу перед підпискою">
   <meta property="og:description" content="Перед підпискою перевірте історію, SLA та умови припинення — це заощаджує кошти.">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1400&q=80">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1400&q=80">
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+  <style>
+    .comparison { border: 1px solid rgba(255,255,255,0.08); }
+    .comparison th, .comparison td { border: 1px solid rgba(255,255,255,0.08); }
+    .comparison th { background: rgba(255,255,255,0.03); }
+    .comparison tr:hover td { background: rgba(255,255,255,0.02); }
+  </style>
 </head>
 <body>
   <nav class="site-nav">
@@ -43,38 +49,45 @@
     <article class="container">
       <div class="card" style="border-radius:var(--radius-lg);">
         <div class="card-body">
-          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80" alt="Як перевірити надійність SaaS-сервісу перед підпискою" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
           <p>Надійність SaaS-сервісу визначається стабільністю інфраструктури, прозорістю умов і швидкістю реакції на інциденти.</p>
-    <h2>Потрібно перевірити</h2>
-    <ul>
-      <li>SLA: проценти uptime і компенсація</li>
-      <li>Політика припинення та повернення коштів</li>
-      <li>Репутація вRelease notes та відгуки</li>
-      <li>Можливість експорту даних</li>
-    </ul>
-    <h2>Порівняння ризиків</h2>
-    <div class="table-wrap">
-      <table class="comparison">
-        <thead><tr><th>Ризик</th><th>Як перевірити</th><th>Мінімальна дія</th></tr></thead>
-        <tbody>
-          <tr><td>Зриви uptime</td><td>Історія інцидентів</td><td>Вимога SLA від 99.9%</td></tr>
-          <tr><td>Зростання тарифів</td><td>Публічні зміни цін</td><td>Попередження 60 днів</td></tr>
-          <tr><td>Відсутність експорту</td><td>Політика даних</td><td>Регулярний автоматичний знімок</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <h2>Висновок</h2>
-    <p>Обирайте сервіси з відкритою політикою даних, без обов’язкових довготермінових контрактів і з доказовою історією підтримки.</p>
-    <h2>Візуалізація</h2>
-    <div class="chart-wrap">
-      <img src="/assets/img/saas-reliability-chart.png" alt="Надійність SaaS">
-    </div>
-    <h2>Читати також</h2>
-    <ul>
-      <li><a href="/posts/accounting-services.html">Порівняння онлайн-бухгалтерських сервісів</a></li>
-      <li><a href="/posts/top-5-edo.html">Топ-5 EDO-сервісів для малого бізнесу</a></li>
-      <li><a href="/posts/document-security.html">Поради з безпеки електронних документів</a></li>
-    </ul>
+
+          <h2>Потрібно перевірити</h2>
+          <ul>
+            <li>SLA: проценти uptime і компенсація.</li>
+            <li>Політика припинення та повернення коштів.</li>
+            <li>Репутація: release notes та відгуки.</li>
+            <li>Можливість експорту даних.</li>
+          </ul>
+
+          <h2>Порівняння ризиків</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Ризик</th><th>Як перевірити</th><th>Мінімальна дія</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Зриви uptime</td><td>Історія інцидентів</td><td>Вимога SLA від 99.9%</td></tr>
+                <tr><td>Зростання тарифів</td><td>Публічні зміни цін</td><td>Попередження 60 днів</td></tr>
+                <tr><td>Відсутність експорту</td><td>Політика даних</td><td>Регулярний автоматичний знімок</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Висновок</h2>
+          <p>Обирайте сервіси з відкритою політикою даних, без обов’язкових довготермінових контрактів і з доказовою історією підтримки.</p>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <img src="https://yuriylv.github.io/passive-income-site/assets/img/saas-reliability-chart.png" alt="Надійність SaaS" style="width:100%;">
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/accounting-services.html">Порівняння онлайн-бухгалтерських сервісів</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/top-5-edo.html">Топ-5 EDO-сервісів для малого бізнесу</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/document-security.html">Поради з безпеки електронних документів</a></li>
+          </ul>
         </div>
       </div>
     </article>

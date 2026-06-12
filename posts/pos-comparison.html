@@ -8,15 +8,21 @@
   <meta property="og:title" content="Порівняння POS-рішень для кафе та магазинів">
   <meta property="og:description" content="Збираємо критерії вибору: облік залишків, онлайн-каса, зв’язок із банком.">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1400&q=80">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1400&q=80">
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+  <style>
+    .comparison { border: 1px solid rgba(255,255,255,0.08); }
+    .comparison th, .comparison td { border: 1px solid rgba(255,255,255,0.08); }
+    .comparison th { background: rgba(255,255,255,0.03); }
+    .comparison tr:hover td { background: rgba(255,255,255,0.02); }
+  </style>
 </head>
 <body>
   <nav class="site-nav">
@@ -43,38 +49,45 @@
     <article class="container">
       <div class="card" style="border-radius:var(--radius-lg);">
         <div class="card-body">
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80" alt="Порівняння POS-рішень для кафе та магазинів" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
           <p>У цій статті збираємо критерії, за якими варто порівнювати POS-рішення: облік залишків, онлайн-каса, зв’язок із банком.</p>
-    <h2>На що дивимось</h2>
-    <ul>
-      <li>Робота з дебітовими картками</li>
-      <li>Підтримка терміналів та касового апарату</li>
-      <li>Можливість інтеграти склад</li>
-      <li>Звітність поточних продажів</li>
-    </ul>
-    <h2>Порівняння за параметрами</h2>
-    <div class="table-wrap">
-      <table class="comparison">
-        <thead><tr><th>Параметр</th><th>Базова версія</th><th>Бізнес версія</th></tr></thead>
-        <tbody>
-          <tr><td>Зв’язок з банком</td><td>Додаткова комісія</td><td>Пряма інтеграція</td></tr>
-          <tr><td>Звітність</td><td>Базові звіти</td><td>Розширена аналітика</td></tr>
-          <tr><td>Склад</td><td>Обмежений облік</td><td>Повний учёт залишків</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <h2>Практичні рекомендації</h2>
-    <p>В моделях для кафе краще вибрати POS з терплячим режимом черг, зручним друком чеків і офлайн-режимом на випадок зриву мережі.</p>
-    <h2>Візуалізація</h2>
-    <div class="chart-wrap">
-      <img src="/assets/img/pos-comparison-chart.png" alt="Порівняння POS-рішень">
-    </div>
-    <h2>Читати також</h2>
-    <ul>
-      <li><a href="/posts/pos-for-cafe.html">Як обрати POS-термінал для кафе</a></li>
-      <li><a href="/posts/accounting-services.html">Порівняння онлайн-бухгалтерських сервісів</a></li>
-      <li><a href="/posts/how-to-choose-payment-gateway.html">Як обрати платіжний шлюз для бізнесу</a></li>
-    </ul>
+
+          <h2>На що дивимось</h2>
+          <ul>
+            <li>Робота з дебітовими картками та Apple/Google Pay.</li>
+            <li>Підтримка терміналів та касового апарату.</li>
+            <li>Можливість інтегрувати склад.</li>
+            <li>Звітність поточних продажів.</li>
+          </ul>
+
+          <h2>Порівняння за параметрами</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Параметр</th><th>Базова версія</th><th>Бізнес версія</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Зв’язок з банком</td><td>Додаткова комісія</td><td>Пряма інтеграція</td></tr>
+                <tr><td>Звітність</td><td>Базові звіти</td><td>Розширена аналітика</td></tr>
+                <tr><td>Склад</td><td>Обмежений облік</td><td>Повний облік залишків</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Практичні рекомендації</h2>
+          <p>Для кафе краще вибирати POS з офлайн-режимом, зручним друком чеків і підтримкою kitchen display. Це зменшує помилки персонала та середній чек.</p>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <img src="https://yuriylv.github.io/passive-income-site/assets/img/pos-comparison-chart.png" alt="Порівняння POS-рішень" style="width:100%;">
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/pos-for-cafe.html">Як обрати POS-термінал для кафе</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/accounting-services.html">Порівняння онлайн-бухгалтерських сервісів</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/how-to-choose-payment-gateway.html">Як обрати платіжний шлюз для бізнесу</a></li>
+          </ul>
         </div>
       </div>
     </article>

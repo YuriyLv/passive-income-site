@@ -1,22 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://biztoolinsight.com.ua/</loc>
+    <loc>https://yuriylv.github.io/passive-income-site/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://biztoolinsight.com.ua/posts/top-5-edo.html</loc>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/top-5-edo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://biztoolinsight.com.ua/posts/pos-for-cafe.html</loc>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/pos-for-cafe.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://biztoolinsight.com.ua/posts/accounting-services.html</loc>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/accounting-services.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/pos-comparison.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/crm-startups.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/remote-work-tools.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/document-security.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/saas-reliability.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/how-to-choose-payment-gateway.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/crm-for-small-business.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yuriylv.github.io/passive-income-site/posts/online-inventory-management.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
