@@ -45,157 +45,108 @@
     <section id="статті" class="container">
       <div class="card-grid">
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/top-5-edo.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/top-5-edo.png" alt="Топ-5 EDO-сервісів" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Топ-5 EDO-сервісів для малого бізнесу в Україні</h3>
-            <p>Порівняння популярних сервісів електронного документообігу за реальними критеріями: тарифи, інтеграції, підтримка.</p>
-          </div>
+          <h3>Топ-5 EDO-сервісів для малого бізнесу в Україні</h3>
+          <p>Порівняння популярних сервісів електронного документообігу за реальними критеріями: тарифи, інтеграції, підтримка.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/pos-for-cafe.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/pos-for-cafe.png" alt="POS для кафе" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Як обрати POS-термінал для кафе</h3>
-            <p>Ключові критерії вибору POS для кафе в Україні: функції, ціна, підтримка та інтеграції.</p>
-          </div>
+          <h3>Як обрати POS-термінал для кафе</h3>
+          <p>Ключові критерії вибору POS для кафе в Україні: функції, ціна, підтримка та інтеграції з кухнею та звітністю.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/accounting-services.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/accounting-services.png" alt="Бухгалтерські сервіси" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Порівняння онлайн-бухгалтерських сервісів</h3>
-            <p>Замість ручного звітництва — перевірте функції, вартість і обмеження популярних сервісів.</p>
-          </div>
+          <h3>Порівняння онлайн-бухгалтерських сервісів</h3>
+          <p>Замість ручного звітництва — перевірте функції, вартість і обмеження популярних сервісів.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/pos-comparison.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/pos-comparison.png" alt="Порівняння POS-рішень" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Порівняння POS-рішень для кафе та магазинів</h3>
-            <p>Збираємо критерії вибору: облік залишків, онлайн-каса, зв’язок із банком.</p>
-          </div>
+          <h3>Порівняння POS-рішень для кафе та магазинів</h3>
+          <p>Збираємо критерії вибору: облік залишків, онлайн-каса, зв’язок із банком.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/crm-startups.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/crm-startups.png" alt="CRM для стартапів" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>CRM для стартапів: як не витратити зайве</h3>
-            <p>Стартапові CRM виростіть разом з командою, але не треба платити за функції, які не використовуєш.</p>
-          </div>
+          <h3>CRM для стартапів: як не витратити зайве</h3>
+          <p>Стартапові CRM виростіть разом з командою, але не треба платити за функції, які не використовуєш.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/remote-work-tools.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/remote-work-tools.png" alt="Інструменти для віддаленої роботи" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Віддалена робота: інструменти для команди</h3>
-            <p>Підбірка інструментів для віддаленої роботи, які допомагають утримувати команду без зайвих витрат.</p>
-          </div>
+          <h3>Віддалена робота: інструменти для команди</h3>
+          <p>Підбірка інструментів для віддаленої роботи, які допомагають утримувати команду без зайвих витрат.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/document-security.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/document-security.png" alt="Безпека електронних документів" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Поради з безпеки електронних документів</h3>
-            <p>Документообіг в ефірі: як не допустити витоку та залишити перевірний слід.</p>
-          </div>
+          <h3>Поради з безпеки електронних документів</h3>
+          <p>Документообіг в ефірі: як не допустити витоку та залишити перевірний слід.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/saas-reliability.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/saas-reliability.png" alt="Надійність SaaS" loading="lazy">
+          <div class="card-meta">
+            <span class="status warning">Рекомендації</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status warning">Рекомендації</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Як перевірити надійність SaaS-сервісу перед підпискою</h3>
-            <p>Перед підпискою перевірте історію, SLA та умови припинення — це заощаджує кошти.</p>
-          </div>
+          <h3>Як перевірити надійність SaaS-сервісу перед підпискою</h3>
+          <p>Перед підпискою перевірте історію, SLA та умови припинення — це заощаджує кошти.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/crm-for-small-business.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/crm-for-small-business.png" alt="CRM для малого бізнесу" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Як обрати CRM-сервіс для малого бізнесу в 2026</h3>
-            <p>Ключові критерії вибору CRM для малого бізнесу в Україні: інтеграції, ціна, підтримка та простота впровадження.</p>
-          </div>
+          <h3>Як обрати CRM-сервіс для малого бізнесу в 2026</h3>
+          <p>Ключові критерії вибору CRM для малого бізнесу в Україні: інтеграції, ціна, підтримка та простота впровадження.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/how-to-choose-payment-gateway.html">
-          <div class="card-image">
-            <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/how-to-choose-payment-gateway.png" alt="Платіжний шлюз" loading="lazy">
+          <div class="card-meta">
+            <span class="status success">Оновлено</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Оновлено</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Як обрати платіжний шлюз</h3>
-            <p>Комісії, інтеграції, безпека та підтримка — що важливо при виборі платіжного шлюзу.</p>
-          </div>
+          <h3>Як обрати платіжний шлюз</h3>
+          <p>Комісії, інтеграції, безпека та підтримка — що важливо при виборі платіжного шлюзу.</p>
         </a>
 
         <a class="card" href="https://yuriylv.github.io/passive-income-site/posts/online-inventory-management.html">
+<<<<<<< HEAD
+=======
           <div class="card-image">
             <img src="https://yuriylv.github.io/passive-income-site/assets/images/og/online-inventory-management.png" alt="Облік залишків" loading="lazy">
           </div>
-          <div class="card-body">
-            <div class="card-meta">
-              <span class="status success">Нова</span>
-              <span class="small text-neutral">червень 2026</span>
-            </div>
-            <h3>Онлайн-облік залишків для малого бізнесу: як зменшити втрати на 25%</h3>
-            <p>Інструменти обліку залишків, інтеграції з POS, прогнозування попиту та практичні цифри ефекту.</p>
+>>>>>>> 9db5f58 (Restore clean card layout)
+          <div class="card-meta">
+            <span class="status success">Нова</span>
+            <span class="small text-neutral">червень 2026</span>
           </div>
+          <h3>Онлайн-облік залишків для малого бізнесу: як зменшити втрати на 25%</h3>
+          <p>Інструменти обліку залишків, інтеграції з POS, прогнозування попиту та практичні цифри ефекту.</p>
         </a>
       </div>
     </section>
