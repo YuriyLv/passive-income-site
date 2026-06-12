@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HR-системи для малого бізнесу: автоматизація кадрів</title>
+  <link rel="canonical" href="https://yuriylv.github.io/passive-income-site/posts/hr-systems.html">
+  <meta property="og:title" content="HR-системи для малого бізнесу">
+  <meta property="og:description" content="Як автоматизувати відпустки, заявки та зарплату без великого бюджету.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="https://yuriylv.github.io/passive-income-site/">BizTool Insight</a>
+      <div class="nav-links"><a href="https://yuriylv.github.io/passive-income-site/#статті">Статті</a></div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="caption overline">Стаття</span>
+      <h1 class="section">HR-системи для малого бізнесу: автоматизація кадрів</h1>
+      <div class="mt-24">
+        <span class="chip active">HR</span>
+        <span class="small text-neutral ml-12">червень 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <div class="card" style="border-radius:var(--radius-lg);">
+        <div class="card-body">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80" alt="HR-системи" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
+          <p>HR-системи допомагають утримувати запити на відпустки, заявки на витрати та платежі в одному місці. Це зменшує адміністративне навантаження та захищає від помилок в розрахунках.</p>
+
+          <h2>Функціонал</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Модуль</th><th>Функція</th><th>Для чого</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Заявки</td><td>Відпустки, відгул</td><td>Зменшити конфлікти</td></tr>
+                <tr><td>Зарплата</td><td>Авторахунок</td><td>Уникнути помилок</td></tr>
+                <tr><td>Навчання</td><td>Курси</td><td>Мотивація персоналу</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Вартість</h2>
+          <ul>
+            <li>Старт: від $4/міс на користувача.</li>
+            <li>Для 10 осіб: від $30/міс.</li>
+            <li>Безкоштовно: Humi Free, Trello для малих команд.</li>
+          </ul>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <canvas id="hrChart" aria-label="Порівняння HR-систем" role="img"></canvas>
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/project-management.html">Управління проєктами</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/team-collaboration.html">Інструменти командної роботи</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/email-marketing.html">Email-маркетинг для бізнесу</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="https://yuriylv.github.io/passive-income-site/">← На BizTool Insight</a>
+      <p class="mt-16">BizTool Insight © 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    new Chart(document.getElementById('hrChart'), {
+      type: 'bar',
+      data: {
+        labels: ['BambooHR', 'Zoho People', 'Humi', 'Trello+кастом'],
+        datasets: [
+          { label: 'Зручність', data: [8, 7, 7, 6], backgroundColor: 'rgba(99,102,241,0.35)', borderColor: 'rgba(99,102,241,1)', borderWidth: 1 },
+          { label: 'Ціна', data: [6, 7, 8, 9], backgroundColor: 'rgba(16,185,129,0.35)', borderColor: 'rgba(16,185,129,1)', borderWidth: 1 }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+          y: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.06)' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

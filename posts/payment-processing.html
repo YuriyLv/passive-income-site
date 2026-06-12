@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Обробка платежів для малого бізнесу: зручні та надійні рішення</title>
+  <link rel="canonical" href="https://yuriylv.github.io/passive-income-site/posts/payment-processing.html">
+  <meta property="og:title" content="Обробка платежів для малого бізнесу">
+  <meta property="og:description" content="Як приймати оплату онлайн, зменшити відмови та захистити транзакції.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="https://yuriylv.github.io/passive-income-site/">BizTool Insight</a>
+      <div class="nav-links"><a href="https://yuriylv.github.io/passive-income-site/#статті">Статті</a></div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="caption overline">Стаття</span>
+      <h1 class="section">Обробка платежів для малого бізнесу: зручні та надійні рішення</h1>
+      <div class="mt-24">
+        <span class="chip active">Payments</span>
+        <span class="small text-neutral ml-12">червень 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <div class="card" style="border-radius:var(--radius-lg);">
+        <div class="card-body">
+          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80" alt="Обробка платежів" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
+          <p>Надійна обробка платежів — це комерційна частина вашого бізнесу. Швидке зачекання, зрозумілі комісії та захист від відмов дозволяють збільшити виручку та зменшити втрати.</p>
+
+          <h2>Що важливо враховувати</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Критерій</th><th>Рекомендація</th><th>Краще уникати</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Комісія</td><td>1.5-2.9% + фікс</td><td>Невидимі додаткові збори</td></tr>
+                <tr><td>Підтримка</td><td>Карти, Apple/Google Pay</td><td>Лише єдина опція</td></tr>
+                <tr><td>Скорочення</td><td>Автоматичні повернення</td><td>Ручні зняття</td></tr>
+                <tr><td>Захист</td><td>3D Secure, фрод-скринінг</td><td>Без захисту транзакцій</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Методи оплати</h2>
+          <ul>
+            <li>Онлайн-каса для магазинів і кафе.</li>
+            <li>Платіжні шлюзи на сайті (LiqPay, Fondy, Portmone).</li>
+            <li>Посилання для оплати в месенджерах.</li>
+            <li>Рекурентні платежі для підписок.</li>
+          </ul>
+
+          <h2>Вартість</h2>
+          <ul>
+            <li>Фонді: комісія від 2.9%, без абонплати.</li>
+            <li>LiqPay: від 2.8% + фікс.</li>
+            <li>Платіжні шлюзи: від $0 до $50/міс.</li>
+          </ul>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <canvas id="payChart" aria-label="Порівняння способів оплати" role="img"></canvas>
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/how-to-choose-payment-gateway.html">Як обрати платіжний шлюз</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/pos-comparison.html">Порівняння POS-рішень</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/pos-for-cafe.html">Як обрати POS-термінал для кафе</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="https://yuriylv.github.io/passive-income-site/">← На BizTool Insight</a>
+      <p class="mt-16">BizTool Insight © 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    new Chart(document.getElementById('payChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Карта', 'Apple Pay', 'Google Pay', 'Посилання', 'Платежі в кредит'],
+        datasets: [
+          { label: 'Зручність', data: [9, 8, 8, 7, 6], backgroundColor: 'rgba(99,102,241,0.35)', borderColor: 'rgba(99,102,241,1)', borderWidth: 1 },
+          { label: 'Відмови', data: [2, 1.5, 1.5, 3, 2], backgroundColor: 'rgba(239,68,68,0.35)', borderColor: 'rgba(239,68,68,1)', borderWidth: 1 }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+          y: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.06)' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
