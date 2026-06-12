@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Командна робота для малого бізнесу: інструменти та практики</title>
+  <link rel="canonical" href="https://yuriylv.github.io/passive-income-site/posts/team-collaboration.html">
+  <meta property="og:title" content="Командна робота для малого бізнесу">
+  <meta property="og:description" content="Як налагодити зв’язок, ділитися файлами і уникнути хаосу в команді.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://yuriylv.github.io/passive-income-site/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a class="brand" href="https://yuriylv.github.io/passive-income-site/">BizTool Insight</a>
+      <div class="nav-links"><a href="https://yuriylv.github.io/passive-income-site/#статті">Статті</a></div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="caption overline">Стаття</span>
+      <h1 class="section">Командна робота для малого бізнесу: інструменти та практики</h1>
+      <div class="mt-24">
+        <span class="chip active">Team</span>
+        <span class="small text-neutral ml-12">червень 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <div class="card" style="border-radius:var(--radius-lg);">
+        <div class="card-body">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80" alt="Командна робота" style="width:100%;border-radius:8px;margin-bottom:20px;">
+
+          <p>Мала команда не терпить публічних процесів: важливо мати єдиний простір для файлів, чату і завдань, щоб не втратити інформацію.</p>
+
+          <h2>Навіщо</h2>
+          <div class="table-wrap">
+            <table class="comparison">
+              <thead>
+                <tr><th>Проблема</th><th>Рішення</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Файли розсипано</td><td>Загальна хмара</td></tr>
+                <tr><td>Закладки дублюються</td><td>База знань в Нотаріусі</td></tr>
+                <tr><td>Завдання губяться</td><td>Таск-трекер</td></tr>
+                <tr><td>Комунікація розділена</td><td>Єдиний чат</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>Інструменти</h2>
+          <ul>
+            <li>Notion — база знань + дошки.</li>
+            <li>Slack — чат + інтеграції.</li>
+            <li>Google Workspace — документи.</li>
+            <li>Trello — завдання.</li>
+          </ul>
+
+          <h2>Вартість</h2>
+          <ul>
+            <li>Безкоштовно: до 3 осіб.</li>
+            <li>Малий бізнес: від $12/міс.</li>
+            <li>Корпоративний: від $30/міс.</li>
+          </ul>
+
+          <h2>Візуалізація</h2>
+          <div class="chart-wrap">
+            <canvas id="teamChart" aria-label="Ефективність командної роботи" role="img"></canvas>
+          </div>
+
+          <h2>Читати також</h2>
+          <ul>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/project-management.html">Управління проєктами</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/remote-work-guide.html">Віддалена робота</a></li>
+            <li><a href="https://yuriylv.github.io/passive-income-site/posts/hr-systems.html">HR-системи</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="https://yuriylv.github.io/passive-income-site/">← На BizTool Insight</a>
+      <p class="mt-16">BizTool Insight © 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    new Chart(document.getElementById('teamChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Зрозумілість процесів', 'Швидкість рішень', 'Задоволення команди'],
+        datasets: [
+          { label: 'З єдиними інструментами (%)', data: [90, 80, 85], backgroundColor: 'rgba(16,185,129,0.35)', borderColor: 'rgba(16,185,129,1)', borderWidth: 1 },
+          { label: 'Без (%)', data: [45, 40, 50], backgroundColor: 'rgba(239,68,68,0.35)', borderColor: 'rgba(239,68,68,1)', borderWidth: 1 }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { labels: { color: '#cbd5e1' } } },
+        scales: {
+          x: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+          y: { ticks: { color: '#cbd5e1' }, grid: { color: 'rgba(255,255,255,0.06)' } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
